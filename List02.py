@@ -8,4 +8,6 @@ def main(fruits,x,i):
     Returns:
         list: return answer
     """
-    return
+    fruits.insert(i,x)
+    return fruits
+print(main(['meva1','meva2', 'meva3', 'meva4'], 'meva0', 4))
