@@ -6,11 +6,16 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    n=0
+'''    n=0
     ans = []
     while n<len(fruits):
         if fruits[n]!='apple':
             ans.append(fruits[n])
         n+=1
     return ans
-print(main(['apple', 'meva1', 'meva2', 'apple', 'meva3', 'apple']))
+print(main(['apple', 'meva1', 'meva2', 'apple', 'meva3', 'apple']))'''
+    a = 0
+    ans = []
+    while fruits:
+        fruits.pop()
+    print(fruits)

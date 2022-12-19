@@ -6,4 +6,13 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    n=0
+    ans = []
+    while n<len(fruits):
+        if fruits[n]=='apple':
+            ans+=[fruits.indeks]
+        n+=1
+    return ans
+print(main('apple', 'meva1', 'meva2', 'apple', 'meva3', 'apple'))
+
+    
